@@ -1,0 +1,9 @@
+package.json
+packages/icons/icons/*
+reports
+coverage
+.changeset/**/*
+**/dist
+**/.next
+**/.keystone
+.api-test-prisma-clients
