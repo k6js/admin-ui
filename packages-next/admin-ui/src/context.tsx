@@ -80,7 +80,8 @@ function InternalKeystoneProvider({
   );
 }
 
-export const KeystoneProvider = (props: KeystoneProviderProps) => {
+// @ts-ignore
+const KeystoneProvider = (props: KeystoneProviderProps) => {
   const apolloClient = useMemo(
     () =>
       new ApolloClient({
@@ -98,7 +99,7 @@ export const KeystoneProvider = (props: KeystoneProviderProps) => {
   );
 };
 
-export const useKeystone = (): {
+const useKeystone = (): {
   adminConfig: AdminConfig;
   adminMeta: AdminMeta;
   authenticatedItem: AuthenticatedItem;
@@ -128,7 +129,8 @@ export const useKeystone = (): {
   };
 };
 
-export const useReinitContext = () => {
+// @ts-ignore
+const useReinitContext = () => {
   const value = useContext(KeystoneContext);
   if (!value) {
     throw new Error('useReinitContext must be called inside a KeystoneProvider component');
@@ -136,7 +138,8 @@ export const useReinitContext = () => {
   return value.reinitContext;
 };
 
-export const useRawKeystone = () => {
+// @ts-ignore
+const useRawKeystone = () => {
   const value = useContext(KeystoneContext);
   if (!value) {
     throw new Error('useRawKeystone must be called inside a KeystoneProvider component');
@@ -144,7 +147,8 @@ export const useRawKeystone = () => {
   return value;
 };
 
-export const useList = (key: string) => {
+// @ts-ignore
+const useList = (key: string) => {
   const {
     adminMeta: { lists },
   } = useKeystone();
@@ -154,3 +158,5 @@ export const useList = (key: string) => {
     throw new Error(`Invalid list key provided to useList: ${key}`);
   }
 };
+
+export { KeystoneProvider, useList, useRawKeystone, useKeystone, useReinitContext } from '@keystone-next/admin-ui/context'
