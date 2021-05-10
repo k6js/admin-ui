@@ -1,8 +1,8 @@
 /** @jsx jsx */
 
 import { MutableRefObject, ReactNode } from 'react';
-import { Button } from '@keystone-ui/button';
-import { jsx, makeId, useId, useTheme, Heading, Stack, Divider } from '@keystone-ui/core';
+import { Button } from '@k6ui/button';
+import { jsx, makeId, useId, useTheme, Heading, Stack, Divider } from '@k6ui/core';
 
 import { DrawerBase, WidthType } from './DrawerBase';
 import { useDrawerControllerContext } from './DrawerController';

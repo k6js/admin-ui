@@ -3,7 +3,7 @@
 import { Fragment, KeyboardEvent, ReactNode } from 'react';
 import FocusLock from 'react-focus-lock';
 import { RemoveScroll } from 'react-remove-scroll';
-import { jsx, keyframes, Portal, useTheme } from '@keystone-ui/core';
+import { jsx, keyframes, Portal, useTheme } from '@k6ui/core';
 import { Blanket } from './Blanket';
 
 type DialogBaseProps = {

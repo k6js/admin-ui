@@ -1,8 +1,8 @@
 /** @jsx jsx */
 
-import { Button } from '@keystone-ui/button';
-import { jsx, Stack } from '@keystone-ui/core';
-import { useToasts } from '@keystone-ui/toast';
+import { Button } from '@k6ui/button';
+import { jsx, Stack } from '@k6ui/core';
+import { useToasts } from '@k6ui/toast';
 
 import { Page } from '../../components/Page';
 

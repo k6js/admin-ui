@@ -1,6 +1,6 @@
 /* @jsx jsx */
 
-import { jsx } from '@keystone-ui/core';
+import { jsx } from '@k6ui/core';
 
 import { Page } from '../../components/Page';
 

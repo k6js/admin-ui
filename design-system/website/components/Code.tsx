@@ -1,7 +1,7 @@
 /* @jsx jsx */
 
 import { ReactNode } from 'react';
-import { jsx, useTheme } from '@keystone-ui/core';
+import { jsx, useTheme } from '@k6ui/core';
 
 export const Code = ({ children }: { children: ReactNode }) => {
   const { palette, spacing, radii } = useTheme();

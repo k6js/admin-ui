@@ -1,12 +1,12 @@
 /** @jsx jsx */
 
 import { HTMLAttributes, ReactNode, forwardRef, useEffect, useMemo, useState } from 'react';
-import { jsx, keyframes, Portal, useTheme } from '@keystone-ui/core';
-import { AlertOctagonIcon } from '@keystone-ui/icons/icons/AlertOctagonIcon';
-import { AlertTriangleIcon } from '@keystone-ui/icons/icons/AlertTriangleIcon';
-import { CheckCircleIcon } from '@keystone-ui/icons/icons/CheckCircleIcon';
-import { InfoIcon } from '@keystone-ui/icons/icons/InfoIcon';
-import { XIcon } from '@keystone-ui/icons/icons/XIcon';
+import { jsx, keyframes, Portal, useTheme } from '@k6ui/core';
+import { AlertOctagonIcon } from '@k6ui/icons/icons/AlertOctagonIcon';
+import { AlertTriangleIcon } from '@k6ui/icons/icons/AlertTriangleIcon';
+import { CheckCircleIcon } from '@k6ui/icons/icons/CheckCircleIcon';
+import { InfoIcon } from '@k6ui/icons/icons/InfoIcon';
+import { XIcon } from '@k6ui/icons/icons/XIcon';
 
 import { ToastContext } from './context';
 import { ToastProps, ToastPropsExact } from './types';

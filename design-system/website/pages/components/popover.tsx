@@ -1,8 +1,8 @@
 /** @jsx jsx */
 
-import { jsx, Box } from '@keystone-ui/core';
-import { Button } from '@keystone-ui/button';
-import { Popover } from '@keystone-ui/popover';
+import { jsx, Box } from '@k6ui/core';
+import { Button } from '@k6ui/button';
+import { Popover } from '@k6ui/popover';
 import { Page } from '../../components/Page';
 
 export default function PopoverPage() {

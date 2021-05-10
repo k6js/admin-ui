@@ -1,6 +1,6 @@
 /* @jsx jsx */
 
-import { jsx, useTheme } from '@keystone-ui/core';
+import { jsx, useTheme } from '@k6ui/core';
 
 import { Fragment } from 'react';
 import { Page } from '../../components/Page';

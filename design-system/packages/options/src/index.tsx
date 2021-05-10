@@ -1,7 +1,7 @@
 /** @jsx jsx */
-import { jsx, useTheme } from '@keystone-ui/core';
-import { useIndicatorTokens } from '@keystone-ui/fields';
-import { CheckIcon } from '@keystone-ui/icons/icons/CheckIcon';
+import { jsx, useTheme } from '@k6ui/core';
+import { useIndicatorTokens } from '@k6ui/fields';
+import { CheckIcon } from '@k6ui/icons/icons/CheckIcon';
 import { useMemo } from 'react';
 import ReactSelect, { OptionProps, components as reactSelectComponents, Props } from 'react-select';
 

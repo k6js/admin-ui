@@ -1,6 +1,6 @@
 /* @jsx jsx */
 
-import { jsx, Box, useTheme, Center } from '@keystone-ui/core';
+import { jsx, Box, useTheme, Center } from '@k6ui/core';
 
 import { Page } from '../../components/Page';
 import { Code } from '../../components/Code';

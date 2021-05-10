@@ -1,6 +1,6 @@
 /** @jsx jsx */
 
-import { useTheme } from '@keystone-ui/core';
+import { useTheme } from '@k6ui/core';
 
 export const buttonSizeValues = ['large', 'medium', 'small'] as const;
 export const buttonToneValues = [

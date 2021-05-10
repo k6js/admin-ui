@@ -1,4 +1,4 @@
-import { useTheme } from '@keystone-ui/core';
+import { useTheme } from '@k6ui/core';
 
 export const segmentedControlSizeValues = ['large', 'medium', 'small'] as const;
 

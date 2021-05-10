@@ -1,7 +1,7 @@
 /** @jsx jsx */
 
 import { ReactNode } from 'react';
-import { jsx } from '@keystone-ui/core';
+import { jsx } from '@k6ui/core';
 
 type SvgProps = { children: ReactNode; size: string | number; stroke?: string; fill?: string };
 const Svg = ({ children, size, stroke = 'none', fill = 'none' }: SvgProps) => (

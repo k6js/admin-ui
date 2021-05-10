@@ -1,8 +1,8 @@
 /* @jsx jsx */
 
 import { Fragment } from 'react';
-import { jsx, Box, Stack } from '@keystone-ui/core';
-import { LoadingDots, loadingToneValues } from '@keystone-ui/loading';
+import { jsx, Box, Stack } from '@k6ui/core';
+import { LoadingDots, loadingToneValues } from '@k6ui/loading';
 
 import { Page } from '../../components/Page';
 import { toLabel } from '../../utils';

@@ -1,6 +1,6 @@
 /* @jsx jsx */
 import { InputHTMLAttributes, forwardRef } from 'react';
-import { jsx } from '@keystone-ui/core';
+import { jsx } from '@k6ui/core';
 
 import { useInputStyles, useInputTokens } from './hooks/inputs';
 import type { SizeType, WidthType } from './types';

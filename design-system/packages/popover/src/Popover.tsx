@@ -14,7 +14,7 @@ import {
 } from 'react';
 import { Options, Placement } from '@popperjs/core';
 import { usePopper } from 'react-popper';
-import { jsx, Portal, useTheme } from '@keystone-ui/core';
+import { jsx, Portal, useTheme } from '@k6ui/core';
 
 type AnchorElementType = HTMLAnchorElement | HTMLButtonElement | HTMLDivElement | HTMLSpanElement;
 

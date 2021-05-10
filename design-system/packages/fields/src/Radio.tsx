@@ -1,7 +1,7 @@
 /** @jsx jsx */
 
 import { Fragment, InputHTMLAttributes, ReactNode, forwardRef } from 'react';
-import { jsx, VisuallyHidden } from '@keystone-ui/core';
+import { jsx, VisuallyHidden } from '@k6ui/core';
 
 import { ControlLabel } from './components/ControlLabel';
 import { DotIcon } from './components/Icons';

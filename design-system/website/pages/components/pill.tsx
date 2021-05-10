@@ -1,7 +1,7 @@
 /** @jsx jsx */
 
-import { Stack, jsx } from '@keystone-ui/core';
-import { Pill } from '@keystone-ui/pill';
+import { Stack, jsx } from '@k6ui/core';
+import { Pill } from '@k6ui/pill';
 
 import { Page } from '../../components/Page';
 

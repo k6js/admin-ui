@@ -1,7 +1,7 @@
 /* @jsx jsx */
 
 import type { ReactNode } from 'react';
-import { jsx } from '@keystone-ui/core';
+import { jsx } from '@k6ui/core';
 import tinycolor from 'tinycolor2';
 
 const BLACK = '#000';

@@ -2,8 +2,8 @@
 
 import React, { Fragment, useCallback } from 'react';
 import FocusLock from 'react-focus-lock';
-import { jsx } from '@keystone-ui/core';
-import { PopoverDialog, usePopover } from '@keystone-ui/popover';
+import { jsx } from '@k6ui/core';
+import { PopoverDialog, usePopover } from '@k6ui/popover';
 
 import { formatDMY, formatDateType } from '../utils/dateFormatters';
 import { DateType } from '../types';

@@ -1,7 +1,7 @@
 /* @jsx jsx */
 
-import { jsx } from '@keystone-ui/core';
-import { Notice, noticeToneValues } from '@keystone-ui/notice';
+import { jsx } from '@k6ui/core';
+import { Notice, noticeToneValues } from '@k6ui/notice';
 
 import { Page } from '../../components/Page';
 import { toLabel, aAn } from '../../utils';

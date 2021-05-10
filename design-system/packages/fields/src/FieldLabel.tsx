@@ -1,6 +1,6 @@
 /* @jsx jsx */
 
-import { forwardRefWithAs, jsx, useTheme } from '@keystone-ui/core';
+import { forwardRefWithAs, jsx, useTheme } from '@k6ui/core';
 import type { ReactNode } from 'react';
 
 type FieldLabelProps = {

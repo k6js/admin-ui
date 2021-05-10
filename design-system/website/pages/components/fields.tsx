@@ -1,7 +1,7 @@
 /* @jsx jsx */
 
 import { ComponentProps, ReactNode, useState } from 'react';
-import { jsx, Stack, useTheme } from '@keystone-ui/core';
+import { jsx, Stack, useTheme } from '@k6ui/core';
 import {
   Checkbox,
   Radio,
@@ -11,8 +11,8 @@ import {
   Select,
   DatePicker,
   DateType,
-} from '@keystone-ui/fields';
-import { SegmentedControl } from '@keystone-ui/segmented-control';
+} from '@k6ui/fields';
+import { SegmentedControl } from '@k6ui/segmented-control';
 
 import { Page } from '../../components/Page';
 

@@ -1,7 +1,7 @@
 /** @jsx jsx */
 
-import { jsx } from '@keystone-ui/core';
-import { Options, CheckMark } from '@keystone-ui/options';
+import { jsx } from '@k6ui/core';
+import { Options, CheckMark } from '@k6ui/options';
 import { ComponentProps, useState } from 'react';
 
 import { Page } from '../../components/Page';

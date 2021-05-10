@@ -14,7 +14,7 @@
  */
 
 import { ButtonHTMLAttributes, forwardRef, ReactNode } from 'react';
-import { jsx, useTheme, VisuallyHidden } from '@keystone-ui/core';
+import { jsx, useTheme, VisuallyHidden } from '@k6ui/core';
 
 import { ControlLabel } from './components/ControlLabel';
 

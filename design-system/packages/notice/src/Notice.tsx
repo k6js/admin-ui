@@ -1,15 +1,15 @@
 /** @jsx jsx */
 
 import { ReactNode, useMemo } from 'react';
-import { jsx, makeId, useId, Stack } from '@keystone-ui/core';
-import { AlertOctagonIcon } from '@keystone-ui/icons/icons/AlertOctagonIcon';
-import { AlertCircleIcon } from '@keystone-ui/icons/icons/AlertCircleIcon';
-import { AlertTriangleIcon } from '@keystone-ui/icons/icons/AlertTriangleIcon';
-import { CheckCircleIcon } from '@keystone-ui/icons/icons/CheckCircleIcon';
-import { InfoIcon } from '@keystone-ui/icons/icons/InfoIcon';
-import { HelpCircleIcon } from '@keystone-ui/icons/icons/HelpCircleIcon';
+import { jsx, makeId, useId, Stack } from '@k6ui/core';
+import { AlertOctagonIcon } from '@k6ui/icons/icons/AlertOctagonIcon';
+import { AlertCircleIcon } from '@k6ui/icons/icons/AlertCircleIcon';
+import { AlertTriangleIcon } from '@k6ui/icons/icons/AlertTriangleIcon';
+import { CheckCircleIcon } from '@k6ui/icons/icons/CheckCircleIcon';
+import { InfoIcon } from '@k6ui/icons/icons/InfoIcon';
+import { HelpCircleIcon } from '@k6ui/icons/icons/HelpCircleIcon';
 
-import { Button, ButtonProvider } from '@keystone-ui/button';
+import { Button, ButtonProvider } from '@k6ui/button';
 import { useNoticeStyles, useNoticeTokens, ToneKey } from './hooks/notice';
 import { useButtonTokens } from './hooks/button';
 
