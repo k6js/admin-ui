@@ -1,7 +1,7 @@
 /** @jsx jsx */
 import { jsx, useTheme } from '@keystone-ui/core';
-import { useRouter } from '@keystone-next/admin-ui/router';
-import { gql, useQuery } from '@keystone-next/admin-ui/apollo';
+import { useRouter } from '@k6js-next/admin-ui/router';
+import { gql, useQuery } from '@k6js-next/admin-ui/apollo';
 import { DocumentRenderer } from '@keystone-next/document-renderer';
 import { InferRenderersForComponentBlocks } from '@keystone-next/fields-document/component-blocks';
 

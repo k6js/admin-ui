@@ -1,4 +1,4 @@
-# @keystone-next/admin-ui
+# @k6js-next/admin-ui
 
 ## 14.1.1
 

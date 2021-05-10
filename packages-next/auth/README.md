@@ -1,4 +1,4 @@
-# @keystone-next/auth
+# @k6js-next/auth
 
 Part of Keystone's [new interfaces project](https://www.keystonejs.com/blog/roadmap-update). This is a preview release, and not yet documented.
 

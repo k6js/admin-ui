@@ -1,4 +1,4 @@
-# @keystone-next/auth
+# @k6js-next/auth
 
 ## 23.0.0
 

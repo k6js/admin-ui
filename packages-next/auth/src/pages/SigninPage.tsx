@@ -7,9 +7,9 @@ import { Button } from '@keystone-ui/button';
 import { TextInput } from '@keystone-ui/fields';
 import { Notice } from '@keystone-ui/notice';
 
-import { useMutation, gql } from '@keystone-next/admin-ui/apollo';
-import { useRawKeystone, useReinitContext } from '@keystone-next/admin-ui/context';
-import { useRouter } from '@keystone-next/admin-ui/router';
+import { useMutation, gql } from '@k6js-next/admin-ui/apollo';
+import { useRawKeystone, useReinitContext } from '@k6js-next/admin-ui/context';
+import { useRouter } from '@k6js-next/admin-ui/router';
 import { SigninContainer } from '../components/SigninContainer';
 
 type SigninPageProps = {

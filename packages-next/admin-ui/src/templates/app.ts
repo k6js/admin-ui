@@ -49,7 +49,7 @@ export const appTemplate = (
     return serializePathForImport(viewPath);
   });
   // -- TEMPLATE START
-  return `import { getApp } from '@keystone-next/admin-ui/pages/App';
+  return `import { getApp } from '@k6js-next/admin-ui/pages/App';
 
 ${allViews.map((views, i) => `import * as view${i} from ${views};`).join('\n')}
 

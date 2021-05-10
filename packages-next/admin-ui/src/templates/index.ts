@@ -9,7 +9,7 @@ import { itemTemplate } from './item';
 import { apiTemplate } from './api';
 import { noAccessTemplate } from './no-access';
 
-const pkgDir = Path.dirname(require.resolve('@keystone-next/admin-ui/package.json'));
+const pkgDir = Path.dirname(require.resolve('@k6js-next/admin-ui/package.json'));
 
 export const writeAdminFiles = (
   config: KeystoneConfig,

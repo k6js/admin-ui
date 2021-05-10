@@ -1,4 +1,4 @@
-# @keystone-next/admin-ui
+# @k6js-next/admin-ui
 
 Part of Keystone's [new interfaces project](https://www.keystonejs.com/blog/roadmap-update). This is a preview release, and not yet documented.
 
