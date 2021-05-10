@@ -189,6 +189,10 @@ enum SortUsersBy {
   isAdmin_DESC
   roles_ASC
   roles_DESC
+  phoneNumbers_ASC
+  phoneNumbers_DESC
+  posts_ASC
+  posts_DESC
 }
 
 input UserUpdateInput {
@@ -274,6 +278,8 @@ input PhoneNumberWhereUniqueInput {
 enum SortPhoneNumbersBy {
   id_ASC
   id_DESC
+  user_ASC
+  user_DESC
   type_ASC
   type_DESC
   value_ASC
@@ -363,6 +369,8 @@ enum SortPostsBy {
   status_DESC
   publishDate_ASC
   publishDate_DESC
+  author_ASC
+  author_DESC
 }
 
 input PostUpdateInput {
