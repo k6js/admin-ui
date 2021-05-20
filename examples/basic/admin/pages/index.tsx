@@ -1,9 +1,9 @@
 import React from 'react';
 
-// export { HomePage as default } from '@k6js-next/admin-ui/pages/HomePage';
-import { HomePage } from '@k6js-next/admin-ui/pages/HomePage';
+// export { HomePage as default } from '@keystone-next/admin-ui/pages/HomePage';
+import { HomePage } from '@keystone-next/admin-ui/pages/HomePage';
 import { ThemeProvider } from '@keystone-ui/core';
-import { useKeystone } from '@k6js-next/admin-ui/context';
+import { useKeystone } from '@keystone-next/admin-ui/context';
 
 
 const Page = (props) => {
@@ -17,4 +17,5 @@ const Page = (props) => {
     );
 }
 
-export default Page;
+// export default Page;
+export default HomePage;

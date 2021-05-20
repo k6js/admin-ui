@@ -21,9 +21,9 @@ const typography = {
   fontFamily: {
     monospace: 'Consolas, Menlo, Monaco, "Andale Mono", "Ubuntu Mono", monospace',
     body:
-      'Indie Flower, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
+      'Orbitron, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
     heading:
-      'Indie Flower, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
+      'Orbitron, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
   },
   fontSize: {
     xxxsmall: '0.5rem',

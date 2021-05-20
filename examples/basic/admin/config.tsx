@@ -9,7 +9,7 @@ import { Fragment } from 'react';
 // export const theme = DarkTheme;
 
 const styles = css`
-  @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
 `;
 
 const CustomLogo = () => (
